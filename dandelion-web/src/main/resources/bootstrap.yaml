@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    nacos:
+      username: xxx
+      password: xxx
+      server-addr: xxx
+      config:
+        namespace: xxx
+        group: WEB
+        file-extension: yaml

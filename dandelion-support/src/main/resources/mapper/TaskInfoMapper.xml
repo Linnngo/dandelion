@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--约束文件-->
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.syl.dandelion.support.mapper.TaskInfoMapper">
+    <insert id="batchInsert" parameterType="java.util.List">
+        INSERT INTO task_info
+        VALUES 
+        <foreach collection="list" item="taskInfo" separator=",">
+            (#{taskInfo.businessId},
+            #{taskInfo.messageTemplateId},
+            #{taskInfo.receivers,jdbcType=VARCHAR,typeHandler=com.baomidou.mybatisplus.extension.handlers.FastjsonTypeHandler},
+            #{taskInfo.idType},
+            #{taskInfo.sendChannel},
+            #{taskInfo.templateType},
+            #{taskInfo.msgType},
+            #{taskInfo.shieldType},
+            #{taskInfo.contentModel,jdbcType=VARCHAR,typeHandler=net.syl.dandelion.support.mapper.WriteClassNameTypeHandler},
+            #{taskInfo.sendAccount},
+            #{taskInfo.status},
+            #{taskInfo.sendTime})
+        </foreach>
+    </insert>
+</mapper>

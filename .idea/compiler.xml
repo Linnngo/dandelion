@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dandelion-support" />
+        <module name="dandelion-handler" />
+        <module name="dandelion-common" />
+        <module name="dandelion-service" />
+        <module name="dandelion-cron" />
+        <module name="dandelion-service-impl" />
+        <module name="dandelion-stream" />
+        <module name="dandelion-web" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dandelion" options="-parameters" />
+      <module name="dandelion-common" options="-parameters" />
+      <module name="dandelion-cron" options="-parameters" />
+      <module name="dandelion-handler" options="-parameters" />
+      <module name="dandelion-service" options="-parameters" />
+      <module name="dandelion-service-impl" options="-parameters" />
+      <module name="dandelion-stream" options="-parameters" />
+      <module name="dandelion-support" options="-parameters" />
+      <module name="dandelion-web" options="-parameters" />
+    </option>
+  </component>
+</project>

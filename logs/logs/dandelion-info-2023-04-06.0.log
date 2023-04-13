@@ -1,0 +1,256 @@
+2023-04-06 10:12:15.578 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-dandelion-web-dev.yaml,WEB'}, BootstrapPropertySource {name='bootstrapProperties-dandelion-web.yaml,WEB'}, BootstrapPropertySource {name='bootstrapProperties-dandelion-web,WEB'}]
+2023-04-06 10:12:15.585 [main] INFO  net.syl.dandelion.web.WebApplication - The following 1 profile is active: "dev"
+2023-04-06 10:12:16.322 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-04-06 10:12:16.324 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-06 10:12:16.343 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-04-06 10:12:16.505 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=22b72ce4-5e40-3e1d-8073-4f41a17f2b72
+2023-04-06 10:12:16.902 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-06 10:12:16.911 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-06 10:12:16.911 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-06 10:12:16.911 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2023-04-06 10:12:17.062 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-06 10:12:17.063 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1450 ms
+2023-04-06 10:12:17.356 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-04-06 10:12:17.805 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-04-06 10:12:18.305 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'dandelion-cron' URL not provided. Will try picking an instance via load-balancing.
+2023-04-06 10:12:19.624 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-04-06 10:12:20.822 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-04-06 10:12:32.979 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-06 10:12:32.994 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-06 10:12:46.278 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-06 10:12:46.279 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-06 10:12:46.280 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-04-06 10:12:54.111 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2023-04-06 10:12:54.114 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-04-06 10:12:56.949 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2023-04-06 10:12:56.949 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-04-06 10:12:56.951 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-06 10:12:56.953 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2023-04-06 10:12:56.955 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2023-04-06 10:12:56.961 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-06 10:16:28.270 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-dandelion-web-dev.yaml,WEB'}, BootstrapPropertySource {name='bootstrapProperties-dandelion-web.yaml,WEB'}, BootstrapPropertySource {name='bootstrapProperties-dandelion-web,WEB'}]
+2023-04-06 10:16:28.274 [main] INFO  net.syl.dandelion.web.WebApplication - The following 1 profile is active: "dev"
+2023-04-06 10:16:28.727 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-04-06 10:16:28.728 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-06 10:16:28.744 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-04-06 10:16:28.899 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=22b72ce4-5e40-3e1d-8073-4f41a17f2b72
+2023-04-06 10:16:29.248 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-06 10:16:29.255 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-06 10:16:29.255 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-06 10:16:29.255 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2023-04-06 10:16:29.364 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-06 10:16:29.364 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1075 ms
+2023-04-06 10:16:29.609 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-04-06 10:16:29.963 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-04-06 10:16:30.447 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'dandelion-cron' URL not provided. Will try picking an instance via load-balancing.
+2023-04-06 10:16:31.840 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-04-06 10:16:33.025 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-04-06 10:16:41.351 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-06 10:16:41.365 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-06 10:17:00.424 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2023-04-06 10:17:00.426 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-04-06 10:17:00.485 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2023-04-06 10:17:00.485 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-04-06 10:17:00.489 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2023-04-06 10:17:00.491 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2023-04-06 10:17:00.497 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-06 10:18:39.146 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-dandelion-web-dev.yaml,WEB'}, BootstrapPropertySource {name='bootstrapProperties-dandelion-web.yaml,WEB'}, BootstrapPropertySource {name='bootstrapProperties-dandelion-web,WEB'}]
+2023-04-06 10:18:39.150 [main] INFO  net.syl.dandelion.web.WebApplication - The following 1 profile is active: "dev"
+2023-04-06 10:18:39.606 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-04-06 10:18:39.608 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-06 10:18:39.622 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-04-06 10:18:39.770 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=22b72ce4-5e40-3e1d-8073-4f41a17f2b72
+2023-04-06 10:18:40.144 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-06 10:18:40.152 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-06 10:18:40.152 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-06 10:18:40.152 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2023-04-06 10:18:40.257 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-06 10:18:40.257 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1091 ms
+2023-04-06 10:18:40.508 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-04-06 10:18:40.862 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-04-06 10:18:41.337 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'dandelion-cron' URL not provided. Will try picking an instance via load-balancing.
+2023-04-06 10:18:42.662 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-04-06 10:18:43.862 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-04-06 10:18:44.100 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-06 10:18:44.115 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-06 10:18:44.126 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP dandelion-web 192.168.91.1:8080 register finished
+2023-04-06 10:18:45.206 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-04-06 10:18:45.228 [main] INFO  net.syl.dandelion.web.WebApplication - Started WebApplication in 9.41 seconds (JVM running for 10.119)
+2023-04-06 10:18:45.231 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=dandelion-web, group=WEB
+2023-04-06 10:18:45.235 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=dandelion-web-dev.yaml, group=WEB
+2023-04-06 10:18:45.236 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=dandelion-web.yaml, group=WEB
+2023-04-06 10:18:59.489 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-06 10:18:59.489 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-06 10:18:59.491 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-04-06 10:25:47.667 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-dandelion-web-dev.yaml,WEB'}, BootstrapPropertySource {name='bootstrapProperties-dandelion-web.yaml,WEB'}, BootstrapPropertySource {name='bootstrapProperties-dandelion-web,WEB'}]
+2023-04-06 10:25:47.671 [main] INFO  net.syl.dandelion.web.WebApplication - The following 1 profile is active: "dev"
+2023-04-06 10:25:48.128 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-04-06 10:25:48.130 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-06 10:25:48.144 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-04-06 10:25:48.292 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=22b72ce4-5e40-3e1d-8073-4f41a17f2b72
+2023-04-06 10:25:48.638 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-06 10:25:48.645 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-06 10:25:48.646 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-06 10:25:48.646 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2023-04-06 10:25:48.752 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-06 10:25:48.752 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1065 ms
+2023-04-06 10:25:48.997 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-04-06 10:25:49.364 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-04-06 10:25:49.843 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'dandelion-cron' URL not provided. Will try picking an instance via load-balancing.
+2023-04-06 10:25:51.151 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-04-06 10:25:52.332 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-04-06 10:25:52.527 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-06 10:25:52.541 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-06 10:25:52.550 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP dandelion-web 192.168.91.1:8080 register finished
+2023-04-06 10:25:53.625 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-04-06 10:25:53.647 [main] INFO  net.syl.dandelion.web.WebApplication - Started WebApplication in 8.963 seconds (JVM running for 9.775)
+2023-04-06 10:25:53.650 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=dandelion-web, group=WEB
+2023-04-06 10:25:53.651 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=dandelion-web-dev.yaml, group=WEB
+2023-04-06 10:25:53.652 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=dandelion-web.yaml, group=WEB
+2023-04-06 10:26:20.360 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-06 10:26:20.360 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-06 10:26:20.361 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-04-06 10:33:30.359 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-dandelion-web-dev.yaml,WEB'}, BootstrapPropertySource {name='bootstrapProperties-dandelion-web.yaml,WEB'}, BootstrapPropertySource {name='bootstrapProperties-dandelion-web,WEB'}]
+2023-04-06 10:33:30.362 [main] INFO  net.syl.dandelion.web.WebApplication - The following 1 profile is active: "dev"
+2023-04-06 10:33:30.822 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-04-06 10:33:30.823 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-06 10:33:30.838 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-04-06 10:33:30.996 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=22b72ce4-5e40-3e1d-8073-4f41a17f2b72
+2023-04-06 10:33:31.363 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-06 10:33:31.370 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-06 10:33:31.371 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-06 10:33:31.371 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2023-04-06 10:33:31.496 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-06 10:33:31.497 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1121 ms
+2023-04-06 10:33:31.749 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-04-06 10:33:32.101 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-04-06 10:33:32.574 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'dandelion-cron' URL not provided. Will try picking an instance via load-balancing.
+2023-04-06 10:33:33.880 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-04-06 10:33:35.076 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-04-06 10:33:35.286 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-06 10:33:35.299 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-06 10:33:35.305 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP dandelion-web 192.168.91.1:8080 register finished
+2023-04-06 10:33:36.386 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-04-06 10:33:36.408 [main] INFO  net.syl.dandelion.web.WebApplication - Started WebApplication in 8.987 seconds (JVM running for 9.753)
+2023-04-06 10:33:36.411 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=dandelion-web, group=WEB
+2023-04-06 10:33:36.413 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=dandelion-web-dev.yaml, group=WEB
+2023-04-06 10:33:36.413 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=dandelion-web.yaml, group=WEB
+2023-04-06 10:33:47.183 [http-nio-8080-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-06 10:33:47.183 [http-nio-8080-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-06 10:33:47.184 [http-nio-8080-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-04-06 10:34:33.260 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-dandelion-web-dev.yaml,WEB'}, BootstrapPropertySource {name='bootstrapProperties-dandelion-web.yaml,WEB'}, BootstrapPropertySource {name='bootstrapProperties-dandelion-web,WEB'}]
+2023-04-06 10:34:33.263 [main] INFO  net.syl.dandelion.web.WebApplication - The following 1 profile is active: "dev"
+2023-04-06 10:34:33.710 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-04-06 10:34:33.712 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-06 10:34:33.727 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2023-04-06 10:34:33.874 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=22b72ce4-5e40-3e1d-8073-4f41a17f2b72
+2023-04-06 10:34:34.232 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-06 10:34:34.239 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-06 10:34:34.239 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-06 10:34:34.240 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2023-04-06 10:34:34.342 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-06 10:34:34.342 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1065 ms
+2023-04-06 10:34:34.589 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-04-06 10:34:34.977 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-04-06 10:34:35.421 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'dandelion-cron' URL not provided. Will try picking an instance via load-balancing.
+2023-04-06 10:34:36.727 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-04-06 10:34:37.921 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-04-06 10:34:38.137 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-06 10:34:38.151 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-06 10:34:38.156 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP dandelion-web 192.168.91.1:8080 register finished
+2023-04-06 10:34:39.226 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-04-06 10:34:39.249 [main] INFO  net.syl.dandelion.web.WebApplication - Started WebApplication in 8.959 seconds (JVM running for 9.722)
+2023-04-06 10:34:39.254 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=dandelion-web, group=WEB
+2023-04-06 10:34:39.256 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=dandelion-web-dev.yaml, group=WEB
+2023-04-06 10:34:39.256 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=dandelion-web.yaml, group=WEB
+2023-04-06 10:34:44.711 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-06 10:34:44.711 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-06 10:34:44.713 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-04-06 10:36:09.859 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-dandelion-web-dev.yaml,WEB'}, BootstrapPropertySource {name='bootstrapProperties-dandelion-web.yaml,WEB'}, BootstrapPropertySource {name='bootstrapProperties-dandelion-web,WEB'}]
+2023-04-06 10:36:09.863 [main] INFO  net.syl.dandelion.web.WebApplication - The following 1 profile is active: "dev"
+2023-04-06 10:36:10.346 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-04-06 10:36:10.348 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-06 10:36:10.362 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-04-06 10:36:10.529 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=22b72ce4-5e40-3e1d-8073-4f41a17f2b72
+2023-04-06 10:36:10.904 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-06 10:36:10.910 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-06 10:36:10.911 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-06 10:36:10.911 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2023-04-06 10:36:11.016 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-06 10:36:11.016 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1136 ms
+2023-04-06 10:36:11.289 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-04-06 10:36:11.677 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-04-06 10:36:12.153 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'dandelion-cron' URL not provided. Will try picking an instance via load-balancing.
+2023-04-06 10:36:13.468 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-04-06 10:36:14.670 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-04-06 10:36:14.874 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-06 10:36:14.888 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-06 10:36:14.895 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP dandelion-web 192.168.91.1:8080 register finished
+2023-04-06 10:36:15.965 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-04-06 10:36:15.986 [main] INFO  net.syl.dandelion.web.WebApplication - Started WebApplication in 9.131 seconds (JVM running for 9.903)
+2023-04-06 10:36:15.989 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=dandelion-web, group=WEB
+2023-04-06 10:36:15.990 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=dandelion-web-dev.yaml, group=WEB
+2023-04-06 10:36:15.991 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=dandelion-web.yaml, group=WEB
+2023-04-06 10:36:34.566 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-06 10:36:34.566 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-06 10:36:34.567 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-04-06 10:37:31.798 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-dandelion-web-dev.yaml,WEB'}, BootstrapPropertySource {name='bootstrapProperties-dandelion-web.yaml,WEB'}, BootstrapPropertySource {name='bootstrapProperties-dandelion-web,WEB'}]
+2023-04-06 10:37:31.803 [main] INFO  net.syl.dandelion.web.WebApplication - The following 1 profile is active: "dev"
+2023-04-06 10:37:32.271 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-04-06 10:37:32.272 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-06 10:37:32.287 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-04-06 10:37:32.433 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=22b72ce4-5e40-3e1d-8073-4f41a17f2b72
+2023-04-06 10:37:32.828 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-06 10:37:32.836 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-06 10:37:32.837 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-06 10:37:32.837 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2023-04-06 10:37:32.943 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-06 10:37:32.943 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1125 ms
+2023-04-06 10:37:33.213 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-04-06 10:37:33.605 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-04-06 10:37:34.066 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'dandelion-cron' URL not provided. Will try picking an instance via load-balancing.
+2023-04-06 10:37:35.377 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-04-06 10:37:36.557 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-04-06 10:37:36.752 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-06 10:37:36.766 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-06 10:37:36.773 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP dandelion-web 192.168.91.1:8080 register finished
+2023-04-06 10:37:37.847 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-04-06 10:37:37.875 [main] INFO  net.syl.dandelion.web.WebApplication - Started WebApplication in 9.023 seconds (JVM running for 9.799)
+2023-04-06 10:37:37.878 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=dandelion-web, group=WEB
+2023-04-06 10:37:37.880 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=dandelion-web-dev.yaml, group=WEB
+2023-04-06 10:37:37.880 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=dandelion-web.yaml, group=WEB
+2023-04-06 10:37:51.506 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-06 10:37:51.506 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-06 10:37:51.506 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-04-06 10:39:23.431 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-dandelion-web-dev.yaml,WEB'}, BootstrapPropertySource {name='bootstrapProperties-dandelion-web.yaml,WEB'}, BootstrapPropertySource {name='bootstrapProperties-dandelion-web,WEB'}]
+2023-04-06 10:39:23.435 [main] INFO  net.syl.dandelion.web.WebApplication - The following 1 profile is active: "dev"
+2023-04-06 10:39:23.934 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-04-06 10:39:23.936 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-06 10:39:23.951 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2023-04-06 10:39:24.105 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=22b72ce4-5e40-3e1d-8073-4f41a17f2b72
+2023-04-06 10:39:24.491 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-06 10:39:24.497 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-06 10:39:24.498 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-06 10:39:24.498 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2023-04-06 10:39:24.611 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-06 10:39:24.611 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1156 ms
+2023-04-06 10:39:24.859 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-04-06 10:39:25.220 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-04-06 10:39:25.682 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'dandelion-cron' URL not provided. Will try picking an instance via load-balancing.
+2023-04-06 10:39:26.994 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-04-06 10:39:28.197 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-04-06 10:39:28.399 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-06 10:39:28.413 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-06 10:39:28.418 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP dandelion-web 192.168.91.1:8080 register finished
+2023-04-06 10:39:29.499 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2023-04-06 10:39:29.521 [main] INFO  net.syl.dandelion.web.WebApplication - Started WebApplication in 9.115 seconds (JVM running for 10.093)
+2023-04-06 10:39:29.524 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=dandelion-web, group=WEB
+2023-04-06 10:39:29.528 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=dandelion-web-dev.yaml, group=WEB
+2023-04-06 10:39:29.528 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=dandelion-web.yaml, group=WEB
+2023-04-06 10:39:37.997 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-06 10:39:37.997 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-06 10:39:37.998 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms

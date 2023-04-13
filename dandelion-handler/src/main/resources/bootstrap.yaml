@@ -1,0 +1,26 @@
+spring:
+  cloud:
+    nacos:
+      username: xxx
+      password: xxx
+      server-addr: xxx
+      config:
+        namespace: xxx
+        file-extension: yaml
+        group: HANDLER
+        extension-configs:
+          - dataId: discard-dev.yaml
+            group: HANDLER
+            refresh: true
+          - dataId: deduplicaiton-dev.yaml
+            group: HANDLER
+            refresh: true
+          - dataId: email-dev.yaml
+            group: HANDLER
+            refresh: true
+          - dataId: sms-dev.yaml
+            group: HANDLER
+            refresh: true
+          - dataId: ding-ding-robot-dev.yaml
+            group: HANDLER
+            refresh: true

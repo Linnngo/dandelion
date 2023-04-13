@@ -1,0 +1,9 @@
+# Project exclude paths
+/dandelion-common/target/
+/dandelion-cron/target/
+/dandelion-handler/target/
+/dandelion-service/target/
+/dandelion-service-impl/target/
+/dandelion-stream/target/
+/dandelion-support/target/
+/dandelion-web/target/
