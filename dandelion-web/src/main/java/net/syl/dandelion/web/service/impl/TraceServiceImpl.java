@@ -156,56 +156,11 @@ public class TraceServiceImpl implements TraceService {
 
     @Override
     public BasicResultVO getTraceBusinessClickCount(long businessId) {
-        QueryWrapper<TaskInfo> wrapper = new QueryWrapper<>();
-        wrapper.select("send_time", "receivers");
-        wrapper.eq("business_id", businessId);
-        TaskInfo taskInfo = taskInfoMapper.selectOne(wrapper);
-        int all = taskInfo.getReceivers().size();
-        Long sendTime = taskInfo.getSendTime();
-        Long firstFiveMin = stringRedisTemplate.opsForZSet().count(DandelionConstant.STREAM_SHORTURL_CLICKED + businessId, 0, sendTime + 60 * 5 * 1000);
-        Long firstTenMin = stringRedisTemplate.opsForZSet().count(DandelionConstant.STREAM_SHORTURL_CLICKED + businessId, 0, sendTime + 60 * 10 * 1000);
-        Long firstTwentyMin = stringRedisTemplate.opsForZSet().count(DandelionConstant.STREAM_SHORTURL_CLICKED + businessId, 0, sendTime + 60 * 20 * 1000);
-        Long firstThirtyMin = stringRedisTemplate.opsForZSet().count(DandelionConstant.STREAM_SHORTURL_CLICKED + businessId, 0, sendTime + 60 * 30 * 1000);
-        Long clicked = stringRedisTemplate.opsForZSet().size(DandelionConstant.STREAM_SHORTURL_CLICKED + businessId);
-        ArrayList<String> product = new ArrayList<>();
-        product.add("前5分钟内点击");
-        product.add("5-10分钟内点击");
-        product.add("10-20分钟内点击");
-        product.add("20-30分钟内点击");
-        product.add("已点击");
-        product.add("未点击");
-        ArrayList<Object> value = new ArrayList<>();
-        value.add(firstFiveMin);
-        value.add(firstTenMin - firstFiveMin);
-        value.add(firstTwentyMin - firstTenMin);
-        value.add(firstThirtyMin - firstTwentyMin);
-        value.add(clicked);
-        value.add(all - clicked);
-        HashMap<Object, Object> map = new HashMap<>();
-        map.put("product", product);
-        map.put("count", value);
-        return BasicResultVO.success(map);
+        return null;
     }
 
     @Override
     public BasicResultVO getTraceBusinessClickRate(long businessId) {
-        QueryWrapper<TaskInfo> wrapper = new QueryWrapper<>();
-        wrapper.select("receivers");
-        wrapper.eq("business_id", businessId);
-        TaskInfo taskInfo = taskInfoMapper.selectOne(wrapper);
-        int all = taskInfo.getReceivers().size();
-        Long clicked = stringRedisTemplate.opsForZSet().size(DandelionConstant.STREAM_SHORTURL_CLICKED + businessId);
-        ArrayList<Object> data = new ArrayList<>();
-        HashMap<Object, Object> map = new HashMap<>();
-        map.put("name", "已点击");
-        map.put("value", clicked);
-        HashMap<Object, Object> map2 = new HashMap<>();
-        map2.put("name", "未点击");
-        map2.put("value", all - clicked);
-        data.add(map);
-        data.add(map2);
-        HashMap<Object, Object> dataMap = new HashMap<>();
-        dataMap.put("arr", data);
-        return BasicResultVO.success(dataMap);
+        return null;
     }
 }
